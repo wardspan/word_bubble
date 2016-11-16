@@ -24,8 +24,8 @@ Number of individual words: 12767
 
 Removing stopwords and re-calculating totals
 
-[[https://github.com/wardspan/word_bubble/blob/master/freq_graph.png|alt=freq_graph]]
+![freq_graph](https://github.com/wardspan/word_bubble/blob/master/freq_graph.png)
 
 and
 
-[[https://github.com/wardspan/word_bubble/blob/master/word_cloud.png|alt=word_cloud]]
+![word_cloud](https://github.com/wardspan/word_bubble/blob/master/word_cloud.png|alt=word_cloud)
