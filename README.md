@@ -28,4 +28,4 @@ Removing stopwords and re-calculating totals
 
 and
 
-![word_cloud](https://github.com/wardspan/word_bubble/blob/master/word_cloud.png|alt=word_cloud)
+![word_cloud](https://github.com/wardspan/word_bubble/blob/master/word_cloud.png)
