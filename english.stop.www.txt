@@ -25,3 +25,6 @@ size
 body
 margin
 color
+isbn
+p
+pp
