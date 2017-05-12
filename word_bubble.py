@@ -11,12 +11,12 @@ import pylab
 
 wrk_dir = path.dirname(__file__)
 
-print 30 * '-'
-print "   M A I N - M E N U"
-print 30 * '-'
-print "1. Text File"
-print "2. Web page"
-print 30 * '-'
+print (30) * '-'
+print ("   M A I N - M E N U")
+print (30) * '-'
+print ("1. Text File")
+print ("2. Web page")
+print (30) * '-'
 
 is_valid=0
  
@@ -59,7 +59,7 @@ elif choice == 2:
     clean_www = soup.get_text()
     tokens = re.split('\\W+', clean_www)
     print "Number of individual words: %s" % len(tokens)
-    print tokens [:10]
+    print tokens [:100]
     Freq_dist_nltk=nltk.FreqDist(tokens)
     print Freq_dist_nltk
     stopwords = [word.strip().lower() for word in open(path.join(wrk_dir, "english.stop.www.txt"))]
